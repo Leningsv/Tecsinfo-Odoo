@@ -1,2 +1,2 @@
 # Tecsinfo-Odoo
-Repositorio para Implementar el trabajo en tecsinfo
+Repositorio para Implementar el trabajo en tecsinfo En el Openerp8.0
