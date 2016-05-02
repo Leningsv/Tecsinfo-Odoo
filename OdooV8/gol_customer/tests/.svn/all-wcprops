@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/odoo/!svn/ver/13/gol_customer/tests
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/odoo/!svn/ver/13/gol_customer/tests/__init__.py
+END
+test_customer.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/odoo/!svn/ver/13/gol_customer/tests/test_customer.py
+END
+test_forma_pago.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/odoo/!svn/ver/13/gol_customer/tests/test_forma_pago.py
+END
+test_voucher_type.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/odoo/!svn/ver/13/gol_customer/tests/test_voucher_type.py
+END

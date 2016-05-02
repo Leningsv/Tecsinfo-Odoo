@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/odoo/!svn/ver/64/gol_invoice
+END
+gol_product.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/odoo/!svn/ver/64/gol_invoice/gol_product.py
+END
+gol_invoice.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/odoo/!svn/ver/64/gol_invoice/gol_invoice.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/odoo/!svn/ver/27/gol_invoice/__init__.py
+END
+gol_item_invoice.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/odoo/!svn/ver/64/gol_invoice/gol_item_invoice.py
+END
+__openerp__.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/odoo/!svn/ver/27/gol_invoice/__openerp__.py
+END

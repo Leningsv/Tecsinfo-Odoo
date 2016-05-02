@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/odoo/!svn/ver/65/gol_accounting_account
+END
+gol_account.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/odoo/!svn/ver/65/gol_accounting_account/gol_account.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/odoo/!svn/ver/59/gol_accounting_account/__init__.py
+END
+gol_classifier.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/odoo/!svn/ver/64/gol_accounting_account/gol_classifier.pyc
+END
+gol_item_organizer_account.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/odoo/!svn/ver/65/gol_accounting_account/gol_item_organizer_account.py
+END
+gol_associated_module.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/odoo/!svn/ver/37/gol_accounting_account/gol_associated_module.py
+END
+gol_organizer_account.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/odoo/!svn/ver/64/gol_accounting_account/gol_organizer_account.pyc
+END
+gol_organizer_type.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/odoo/!svn/ver/65/gol_accounting_account/gol_organizer_type.pyc
+END
+gol_item_center_cost.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/odoo/!svn/ver/49/gol_accounting_account/gol_item_center_cost.py
+END
+gol_organizer_type.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/odoo/!svn/ver/65/gol_accounting_account/gol_organizer_type.py
+END
+gol_organizer_account.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/odoo/!svn/ver/59/gol_accounting_account/gol_organizer_account.py
+END
+gol_center_cost.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/odoo/!svn/ver/37/gol_accounting_account/gol_center_cost.py
+END
+gol_classifier.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/odoo/!svn/ver/22/gol_accounting_account/gol_classifier.py
+END
+gol_apportionment.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/odoo/!svn/ver/49/gol_accounting_account/gol_apportionment.py
+END
+__init__.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/odoo/!svn/ver/64/gol_accounting_account/__init__.pyc
+END
+gol_account.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/odoo/!svn/ver/65/gol_accounting_account/gol_account.pyc
+END
+__openerp__.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/odoo/!svn/ver/65/gol_accounting_account/__openerp__.py
+END

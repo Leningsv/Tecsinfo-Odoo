@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="view_gol_account_form_inherit">
+		    <field name="name">view.gol.account.form.inherit</field>
+		    <field name="model">account.account</field>
+		    <field name="type">form</field>
+		    <field name="inherit_id" ref="account.view_account_form" />
+		    <field name="arch" type="xml">
+		    	<field name="debit" position="before">
+		    		<field name="centerCostUse" attrs= "{'invisible': ['|',('isBank','==',True),('type', '==', 'view')]}"/>
+		    		<field name="apportionmentUse" attrs= "{'invisible': [('centerCostUse', '=', False)]}"/>
+		    		<field name="apportionment" attrs= "{'invisible': [('apportionmentUse', '=', False)]}"/>
+		    	</field>
+		    	<field name="type" position="before">
+		    		<field name="auxType"/>
+		    	</field>
+		    	<field name="type" position="attributes">
+		    		<attribute name="domain">[('type','in',['view','other'])]</attribute>
+		    	</field>
+		    	<field name="debit" position="attributes">
+		    		<attribute name="string">Debe</attribute>
+		    	</field>
+		    	<field name="credit" position="attributes">
+		    		<attribute name="string">Haber</attribute>
+		    	</field>		    	
+				<field name="note" position="after">
+					<notebook colspan="4">	
+						<page string="Cuentas Tipo Ordenador" name="organizerAccount">	                			
+                			<field name="itemOrganizerAccount"
+								attrs="{'invisible': False}" >
+		                        <tree string="Cuentas Tipo Ordenador" editable="bottom">
+		                            <field name="auxType"/>
+		                            <field name="organizerAccount" domain="[('organizerType','in',[auxType])]"/>
+		                            <field name="code"/>
+		                        </tree>
+		                    </field>             					                				               				                			
+                		</page> 
+                		<page string="Observación">	                			
+                			<field name="note"/>             					                				               				                			
+                		</page>                		               	
+	                </notebook>	                
+	            </field>
+	            <field name="note" position="replace">
+				</field>
+				<field name="user_type" position="after">
+	                <field name="classifier"/>
+	                <field name="associatedModule" attrs= "{'invisible': [('isBank', '=', True)]}"/>
+	                <field name="isBank" attrs= "{'invisible': [('centerCostUse', '=', True)]}"/>
+	                <field name="bankAccountCompany" attrs= "{'invisible': [('isBank', '=', False)]}"/>
+	            </field>
+    		    <field name="reconcile" position="attributes">
+	                <attribute name='invisible'>0</attribute> 
+	            </field>
+	            <field name="tax_ids" position="attributes">
+	                <attribute name='invisible'>1</attribute> 
+	            </field>            	
+    		</field>
+		</record>
+		<record id="view_gol_account_tree" model="ir.ui.view">
+            <field name="name">view.gol.account.tree</field>
+            <field name="model">account.account</field>
+            <field eval="8" name="priority"/>
+            <field name="arch" type="xml">
+                <tree string="Cuentas">
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="type"/>
+                </tree>
+            </field>
+        </record>
+		<record id='action_gol_account' model='ir.actions.act_window'>
+            <field name="name">Cuenta</field>
+            <field name="res_model">account.account</field>
+            <field name="view_mode">form,tree</field>
+            <field name="view_type">form</field>
+		</record>
+    </data>
+</openerp>
+		

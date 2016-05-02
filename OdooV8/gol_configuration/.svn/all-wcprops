@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/odoo/!svn/ver/64/gol_configuration
+END
+gol_format_correlative.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/odoo/!svn/ver/45/gol_configuration/gol_format_correlative.py
+END
+gol_account_config_settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/odoo/!svn/ver/64/gol_configuration/gol_account_config_settings.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/odoo/!svn/ver/64/gol_configuration/__init__.py
+END
+gol_consecutive_invoice.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/odoo/!svn/ver/64/gol_configuration/gol_consecutive_invoice.py
+END
+gol_consecutive_type_accounting_voucher.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/odoo/!svn/ver/13/gol_configuration/gol_consecutive_type_accounting_voucher.py
+END
+__openerp__.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/odoo/!svn/ver/64/gol_configuration/__openerp__.py
+END

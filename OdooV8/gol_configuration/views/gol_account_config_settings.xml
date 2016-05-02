@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="view_gol_account_config_settings">
+		    <field name="name">view.gol.account.config.settings</field>
+		    <field name="model">account.config.settings</field>
+		    <field name="type">form</field>
+		    <field name="inherit_id" ref="account.view_account_config_settings" />
+		    <field name="arch" type="xml">	
+		        <label for="sale_sequence_next" position="before">
+			        <group string="Correlativo Factura">
+			        	<group>
+			        		<field name="invoicePrefix"/>
+			        		<field name="dateFormat"/>
+			        		<field name="charactersAmount"/>
+			        	</group>
+			        	<group>
+			        		<field name="separator"/>
+			        		<field name="dateSeparator"/>
+			        		<field name="preview"/>
+			        	</group>        				        	
+			        </group>
+			        <field name="consecutiveInvoice" nolabel="1" widget="one2many_list" context="{'dateFormat': dateFormat}">
+                        <tree string="Consetivos" editable="bottom">
+                        	<field name="cosecutive" attrs="{'readonly': False}"/>
+                            <field name="mont"/>
+                            <field name="year"/>                                                                 
+                        </tree>
+                    </field>		        	
+		        </label>    	  		 		    	                    
+		    </field>
+		</record>
+    </data>
+</openerp>
+		
+
+		

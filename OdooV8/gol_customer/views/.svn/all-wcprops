@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/odoo/!svn/ver/57/gol_customer/views
+END
+gol_customer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/odoo/!svn/ver/57/gol_customer/views/gol_customer.xml
+END
+gol_validator_retention.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/odoo/!svn/ver/13/gol_customer/views/gol_validator_retention.xml
+END

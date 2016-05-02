@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/odoo/!svn/ver/31/test_modulos/test
+END
+test_modulo_forma_pago.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/odoo/!svn/ver/31/test_modulos/test/test_modulo_forma_pago.py
+END
+test_modulo_comprobante_contable.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/odoo/!svn/ver/31/test_modulos/test/test_modulo_comprobante_contable.py
+END
+test_retencion.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/odoo/!svn/ver/31/test_modulos/test/test_retencion.py
+END
+test_modulo_nota_credito.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/odoo/!svn/ver/31/test_modulos/test/test_modulo_nota_credito.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/odoo/!svn/ver/31/test_modulos/test/__init__.py
+END
+test_modulo_cuentas.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/odoo/!svn/ver/31/test_modulos/test/test_modulo_cuentas.py
+END
+test_modulo_cliente.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/odoo/!svn/ver/31/test_modulos/test/test_modulo_cliente.py
+END
+test_modulo_empresa.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/odoo/!svn/ver/31/test_modulos/test/test_modulo_empresa.py
+END
+test_modulo_factura.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/odoo/!svn/ver/31/test_modulos/test/test_modulo_factura.py
+END
+test_modulo_nota_debito.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/odoo/!svn/ver/31/test_modulos/test/test_modulo_nota_debito.py
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/odoo/!svn/ver/63/gol_credit_note
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/odoo/!svn/ver/63/gol_credit_note/__init__.py
+END
+gol_type_credit_note.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/odoo/!svn/ver/63/gol_credit_note/gol_type_credit_note.py
+END
+gol_credit_note.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/odoo/!svn/ver/63/gol_credit_note/gol_credit_note.py
+END
+__openerp__.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/odoo/!svn/ver/63/gol_credit_note/__openerp__.py
+END

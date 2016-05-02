@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="view_form_gol_company_inherit">
+		    <field name="name">view.gol.company.inherit</field>
+		    <field name="model">res.company</field>
+		    <field name="type">form</field>
+		    <field name="inherit_id" ref="base.view_company_form" />
+		    <field name="arch" type="xml">			    	  		 
+		    	<field name="website" position="after">
+					<field name="tradename"/>
+					<field name="legalRepresentative"/>
+					<field name="typePerson"/>
+			    	<field name="identificationType"/>
+			    	<field name="identificationNumber"/>			    	
+			    </field>
+			    <field name="phone" position="before">
+			    	<field name="accountant"/>	
+			    	<field name="bussinesName"/>		    	
+			    </field>
+			    <field name="phone" position="replace">
+			    	<field name="phone" string="Teléfono 1"/>
+			    	<field name="phone2"/>
+			    	<field name="phone3"/>	    		    	
+			    </field>
+			    <field name="email" position="after">		    	
+			    	<field name="formatCorrelative"/>
+			    	<field name="forcedToTakeAccounting"/>	
+			    	<field name="riseUse" widget="radio"/>			    		    	
+			    </field>
+			    <page string="Configuration" position="after">	                        		        	
+			    	<page string="Obligaciones Tributarias">
+	                	<field name="taxLiability" widget="one2many"/>
+	                </page>
+	            </page>
+			    <page string="Configuration" position="attributes">
+	                <attribute name='invisible'>1</attribute> 
+	            </page>
+	            <page string="Report Configuration" position="attributes">
+	                <attribute name='invisible'>1</attribute> 
+	            </page>
+	            <field name="vat" position="attributes">
+	                <attribute name='invisible'>1</attribute> 
+	            </field>
+	            <field name="company_registry" position="attributes">
+	                <attribute name='invisible'>1</attribute> 
+	            </field>
+	            <field name="parent_id" position="attributes">
+	                <attribute name='domain'>[('parent_id','=',False)]</attribute> 
+	            </field>	                        
+		    </field>
+		</record>
+		<record id="view_gol_company_tree" model="ir.ui.view">
+            <field name="name">res.company.tree</field>
+            <field name="model">res.company</field>
+            <field eval="8" name="priority"/>
+            <field name="arch" type="xml">
+                <tree string="Empresas">
+                    <field name="display_name"/>
+                    <field name="phone"/>
+                    <field name="email"/>
+                </tree>
+            </field>
+        </record>
+        <record id='view_tree_gol_tax_liability' model='ir.ui.view'>
+			<field name='name'>view.tree.gol.tax.liability</field>
+			<field name='model'>gol.tax.liability</field>
+			<field name='arch' type='xml'>
+				<tree string='Obligaciones Tributarias' version='7.0' editable='bottom'>
+					<field name='state'/>
+					<field name='code'/>
+					<field name='name'/>				    
+				    <field name='date'/>
+				</tree>
+			</field>
+		</record>  
+		<record id='action_modulo' model='ir.actions.act_window'>
+            <field name="name">Compañia</field>
+            <field name="res_model">res.company</field>
+            <field name="view_mode">form,tree</field>
+            <field name="view_type">form</field>
+		</record>
+    </data>
+</openerp>
+		

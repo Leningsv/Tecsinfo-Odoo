@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+    	<record model="ir.ui.view" id="view_tree_gol_format_correlative">
+            <field name="name">view.tree.gol.format.correlative</field>
+            <field name="model">gol.format.correlative</field>
+            <field name="arch" type="xml">
+                <tree string="Formatos de Correlativos">
+                    <field name="companyPrefix"  class="oe_inline"/>
+                    <field name="charactersAmount"/>
+                    <field name="separator"/>
+                    <field name="dateFormat"/> 
+                    <field name="dateSeparator"/>               
+                </tree>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="view_form_gol_format_correlative">
+            <field name="name">view.form.gol.format.correlative</field>
+            <field name="model">gol.format.correlative</field>
+            <field name="arch" type="xml">
+                <form string="Formatos de Correlativos">
+	                <sheet>
+		                <group>
+		                   	<field name="companyPrefix"/>
+		                   	<field name="charactersAmount"/>
+		                   	<field name="separator"/>
+		                   	<field name="dateFormat"/> 
+		                   	<field name="dateSeparator"/>
+		                   	<field name="preview"/>
+	                    </group>	
+	                    <notebook>
+							<page string="Cosecutivos">
+								<field name="consecutiveTypeAccountingVoucher" />
+							</page>
+						</notebook>
+					</sheet>               
+                </form>
+            </field>
+        </record>       
+        <record id='view_tree_gol_consecutive' model='ir.ui.view'>
+			<field name='name'>view.tree.gol.consecutive</field>
+			<field name='model'>gol.consecutive</field>
+			<field name='arch' type='xml'>
+				<tree string='Consecutivo' version='7.0' editable='bottom'>
+				    <field name='typeVoucher'/>
+				    <field name='cosecutive'/>
+				    <field name='mont'/>
+					<field name='year'/>
+				</tree>
+			</field>
+		</record>    
+		<record id='action_modulo' model='ir.actions.act_window'>
+            <field name="name">Formato Correlativo del Comprobante Contable</field>
+            <field name="res_model">gol.format.correlative</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_type">form</field>
+		</record>
+		<!-- Ejemplo de creacion de menus -->
+		<menuitem name="Correlativos" id="menu_gol_format_correlative" sequence="1" parent="base.menu_administration" />
+			<menuitem id="menu_gol_sub_format_correlative" sequence="1"
+					  parent="menu_gol_format_correlative" action="action_modulo" />
+    </data>
+</openerp>
+		

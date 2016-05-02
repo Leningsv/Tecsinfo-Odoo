@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="view_form_gol_product_inherit">
+		    <field name="name">view.form.gol.product.inherit</field>
+		    <field name="model">product.template</field>
+		    <field name="type">form</field>
+		    <field name="inherit_id" ref="product.product_template_only_form_view" />
+		    <field name="arch" type="xml">
+		    	<page string="Procurements" position="attributes">
+		    		<attribute name="invisible">0</attribute>
+		    	</page>
+		    	<page string="Inventory" position="attributes">
+		    		<attribute name="invisible">0</attribute>
+		    	</page>
+		    	<page string="Sales" position="attributes">
+		    		<attribute name="invisible">0</attribute>
+		    	</page>
+		    	<field name="property_account_income" position="attributes">
+		    		<attribute name="invisible">0</attribute>
+		    	</field>			
+		    	<field name="property_account_expense" position="attributes">
+		    		<attribute name="invisible">0</attribute>
+		    	</field>
+		    	<field name="default_code" position="replace">
+		    	</field>   
+		    	<div class="oe_title" position="replace">
+	                <label for="codeProduct" class="oe_edit_only" string="Código y Nombre del Producto"/>	    				    			    			
+	                <h1>
+	                    <field name="default_code" attrs= "{'required': True}" class="oe_inline" placeholder="Código" style="width: 6em"/>-
+	                    <field name="name" class="oe_inline" placeholder="Nombre"/>
+	                </h1>                    
+		    	</div> 
+		    	<field name="supplier_taxes_id" position="attributes">
+		    		<attribute name="string">Impuesto Compra</attribute>		    		
+		    	</field>			
+		    	<field name="taxes_id" position="attributes">
+		    		<attribute name="string">Impuesto Venta</attribute>		    		
+		    	</field>		 	    					        
+		    	<field name="ean13" position="attributes">
+		    		<attribute name="invisible">1</attribute>		    		
+		    	</field>
+		    </field>
+		</record>
+		<record id='action_product_modulo' model='ir.actions.act_window'>
+            <field name="name">Producto</field>
+            <field name="res_model">product.product</field>
+            <field name="view_mode">form,tree</field>
+            <field name="view_type">form</field>
+            <field name="view_id" ref="product.product_normal_form_view"/> 
+		</record>
+		<!-- 
+		<menuitem name="Producto" id="menu_gol_product" sequence="1" parent="gol_general.menu_gol_sales" />
+			<menuitem id="menu_sub_gol_product" sequence="1"
+					  parent="menu_gol_product" action="action_product_modulo" /> -->
+    </data>
+</openerp>
+		

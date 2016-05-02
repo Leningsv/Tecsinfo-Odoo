@@ -1,0 +1,3 @@
+import gol_type_debit_note
+import gol_debit_note
+import gol_account_voucher_line

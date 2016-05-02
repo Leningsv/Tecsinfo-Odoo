@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="view_gol_item_center_cost_tree">
+		    <field name="name">view.gol.item.center.cost.tree</field>
+		    <field name="model">gol.item.center.cost</field>
+		    <field name="type">tree</field>
+		    <field name='arch' type='xml'>
+				<tree string='Centros de Costo' version='7.0' editable='bottom'>
+					<field name='centerCost'/>
+					<field name='value'/>					
+				</tree>
+			</field>
+		</record>
+    </data>
+</openerp>

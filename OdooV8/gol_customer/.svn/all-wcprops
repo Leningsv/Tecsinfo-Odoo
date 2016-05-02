@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/odoo/!svn/ver/59/gol_customer
+END
+gol_validator_retention.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/odoo/!svn/ver/59/gol_customer/gol_validator_retention.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/odoo/!svn/ver/58/gol_customer/__init__.py
+END
+gol_customer_type.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/odoo/!svn/ver/13/gol_customer/gol_customer_type.py
+END
+gol_customer.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/odoo/!svn/ver/59/gol_customer/gol_customer.py
+END
+__openerp__.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/odoo/!svn/ver/58/gol_customer/__openerp__.py
+END

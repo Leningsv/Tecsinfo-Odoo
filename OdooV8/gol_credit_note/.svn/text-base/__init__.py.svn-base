@@ -1,0 +1,2 @@
+import gol_type_credit_note
+import gol_credit_note

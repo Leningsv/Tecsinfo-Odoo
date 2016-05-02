@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/odoo/!svn/ver/64/gol_invoice/views
+END
+gol_invoice_inherit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/odoo/!svn/ver/64/gol_invoice/views/gol_invoice_inherit.xml
+END
+gol_product.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/odoo/!svn/ver/64/gol_invoice/views/gol_product.xml
+END

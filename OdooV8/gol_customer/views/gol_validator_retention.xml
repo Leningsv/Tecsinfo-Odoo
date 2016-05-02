@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="view_gol_validator_retention_form">
+		    <field name="name">view.gol.validator.retention.form</field>
+		    <field name="model">gol.validator.retention</field>
+		    <field name="type">form</field>
+		    <field name="arch" type="xml">
+		    	<sheet>
+		    		<group name="Reglas Retención">			    		
+			    		<group>	
+			    			<field name="authorizationNumber"/>	    			
+			    			<field name="initialCorrelative"/>	 
+			    			<field name="correlativeEnd"/>		    			
+			    		</group>
+			    		<group>
+			    			<field name="broadcastDate"/>	 
+			    			<field name="expirationDate"/>	 
+			    		</group>
+		    		</group>		    			    
+			    </sheet>
+		    </field>
+		</record>
+		<record id='view_gol_validator_retention_tree' model='ir.ui.view'>
+			<field name='name'>view.gol.validator.retention.tree</field>
+			<field name='model'>gol.validator.retention</field>
+			<field name='arch' type='xml'>
+				<tree>
+					<field name='authorizationNumber'/>
+					<field name='initialCorrelative'/>
+					<field name='correlativeEnd'/>
+					<field name='broadcastDate'/>
+					<field name='expirationDate'/>
+				</tree>
+			</field>
+		</record>  
+    </data>
+</openerp>

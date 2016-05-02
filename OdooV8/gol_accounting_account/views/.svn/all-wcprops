@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/odoo/!svn/ver/65/gol_accounting_account/views
+END
+gol_apportionment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/odoo/!svn/ver/38/gol_accounting_account/views/gol_apportionment.xml
+END
+gol_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/odoo/!svn/ver/65/gol_accounting_account/views/gol_account.xml
+END
+gol_organizer_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/odoo/!svn/ver/57/gol_accounting_account/views/gol_organizer_account.xml
+END
+gol_item_center_cost.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/odoo/!svn/ver/47/gol_accounting_account/views/gol_item_center_cost.xml
+END

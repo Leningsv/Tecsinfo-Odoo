@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/odoo/!svn/ver/65/gol_company/views
+END
+gol_view_company_inherit_form.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/odoo/!svn/ver/15/gol_company/views/gol_view_company_inherit_form.xml
+END
+gol_company.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/odoo/!svn/ver/65/gol_company/views/gol_company.xml
+END
+gol_bank_account_company.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/odoo/!svn/ver/45/gol_company/views/gol_bank_account_company.xml
+END

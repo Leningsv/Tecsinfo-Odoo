@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/odoo/!svn/ver/20/module_test
+END
+module_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/odoo/!svn/ver/20/module_test/module_test.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/odoo/!svn/ver/12/module_test/__init__.py
+END
+module_test_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/odoo/!svn/ver/2/module_test/module_test_view.xml
+END
+__openerp__.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/odoo/!svn/ver/2/module_test/__openerp__.py
+END

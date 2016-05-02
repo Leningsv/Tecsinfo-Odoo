@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="view_gol_apportionment_form">
+		    <field name="name">view.gol.apportionment.form</field>
+		    <field name="model">gol.apportionment</field>
+		    <field name="type">form</field>
+		    <field name="arch" type="xml">
+		    	<sheet>		    	
+			    	<group>
+			    		<group>
+			    			<field name="code"/>	    			
+			    		</group>
+			    		<group>
+			    			<field name="name"/>
+			    		</group>
+			    		<notebook colspan="4">
+	                		<page string="Centros de Costo Asociados">	                			
+	                			<field name="itemCenterCost"/>
+	                			<group class="oe_subtotal_footer oe_right">
+                                	<field name="totalValue"/>
+                                </group>	                			               					                				               				                			
+	                		</page>                	
+	                	</notebook>			    					    				    				    			    											    	
+				    </group>				    
+			    </sheet>
+		    </field>
+		</record>
+    </data>
+</openerp>

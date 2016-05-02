@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/odoo/!svn/ver/64/gol_accounting_voucher/views
+END
+gol_accounting_voucher.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/odoo/!svn/ver/64/gol_accounting_voucher/views/gol_accounting_voucher.xml
+END
+gol_item_apportionment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/odoo/!svn/ver/64/gol_accounting_voucher/views/gol_item_apportionment.xml
+END

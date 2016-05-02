@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="view_gol_payment_form_inherit">
+		    <field name="name">view.gol.payment.form.inherit</field>
+		    <field name="model">account.voucher</field>
+		    <field name="type">form</field>
+		    <field name="inherit_id" ref="account_voucher.view_vendor_receipt_form" />
+		    <field name="arch" type="xml">	
+		    	<field name="journal_id" position="attributes">
+		    		<attribute name="widget">many2one</attribute>
+		    		<attribute name="string">Monto a Pagar</attribute>
+		    	</field>	
+		    	<xpath expr="/form/sheet/notebook/page/field/tree/field[@name='amount_original']" position="attributes">
+				    <attribute name="sum">Valor Total</attribute>
+				</xpath> 
+				<xpath expr="/form/sheet/notebook/page/field/tree/field[@name='amount_unreconciled']" position="attributes">
+				    <attribute name="sum">Valor Total</attribute>
+				</xpath>   	  		 		    	                    
+		    </field>
+		</record>
+    </data>
+</openerp>
+		

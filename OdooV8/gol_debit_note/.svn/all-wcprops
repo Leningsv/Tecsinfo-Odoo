@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/odoo/!svn/ver/64/gol_debit_note
+END
+gol_account_voucher_line.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/odoo/!svn/ver/64/gol_debit_note/gol_account_voucher_line.py
+END
+gol_debit_note.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/odoo/!svn/ver/60/gol_debit_note/gol_debit_note.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/odoo/!svn/ver/64/gol_debit_note/__init__.py
+END
+gol_type_debit_note.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/odoo/!svn/ver/60/gol_debit_note/gol_type_debit_note.py
+END
+__openerp__.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/odoo/!svn/ver/64/gol_debit_note/__openerp__.py
+END

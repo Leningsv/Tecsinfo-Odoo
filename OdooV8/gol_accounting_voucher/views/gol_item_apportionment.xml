@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+		<record id='view_gol_aux_item_apportionment_form' model='ir.ui.view'>
+			<field name='name'>view.gol.aux.item.apportionment.form</field>
+			<field name='model'>gol.aux.item.apportionment</field>
+			<field name="type">form</field>
+			<field name='arch' type='xml'>
+				<form>			
+					<field name="amount" attrs="{'readonly':True}"/>
+					<field name="itemApportionment" context="{'amount':amount}"
+						attrs="{'invisible': False}" >
+                        <tree string="Credits" editable="bottom" colors="gray:amount==0">
+                            <field name="centerCost" 
+                            on_change="onchange_CalculateAmount(auxValue,centerCost,context)"/>
+                            <field name="auxValue" sum="Total (%)"
+                            on_change="onchange_CalculateAmount(auxValue,centerCost,context)"/>
+                            <field name="amount" sum="Valor Total"
+                            on_change="onchange_CalculateAmount(auxValue,centerCost,context)"/>
+                        </tree>
+                    </field>																			
+				</form>
+			</field>
+		</record>  
+    </data>
+</openerp>
+		

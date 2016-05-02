@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="view_gol_point_of_sale_form">
+		    <field name="name">view.gol.point.of.sale.form</field>
+		    <field name="model">gol.point.of.sale</field>
+		    <field name="type">form</field>
+		    <field name="arch" type="xml">
+		    	<form string="Point of Sale">
+	                <sheet>
+	                    <group>
+	                        <group string="Punto de Venta">
+	                            <field name="code"/>
+	                            <field name="name"/>
+	                            <field name="correlative"/>	                          
+	                        </group>
+	                    </group>
+	                    <notebook>
+	                        <page string="Documentos Asociados">
+	                            <field name="document">
+	                                <tree string="Documentos" editable="bottom">
+	                                    <field name="authorizationNumber"/>
+	                                    <field name="documentType"/>
+	                                    <field name="correlativeFrom"/>
+	                                    <field name="correlativeTo"/>
+	                                    <field name="broadcastDate"/>
+	                                    <field name="expirationDate"/>
+	                                    <field name="correlativeCurrentPosition"/>
+	                                    <field name="correlativeLength"/>
+	                                    <field name="active"/>
+	                                </tree>
+	                            </field>
+	                        </page>
+	                        <page string="Usuarios Asociados">
+	                            <field name="itemUser">
+	                                <tree string="Usuarios" editable="bottom">
+	                                    <field name="user"/>
+	                                </tree>
+	                            </field>
+	                        </page>
+	                    </notebook>
+	                </sheet>
+                </form>
+		    </field>
+		</record>
+		<record id='view_gol_point_of_sale_tree' model='ir.ui.view'>
+			<field name='name'>view.gol.point.of.sale.tree</field>
+			<field name='model'>gol.point.of.sale</field>
+			<field name='arch' type='xml'>
+				<tree string='Punto de Venta'>
+					<field name="code"/>
+					<field name="name"/>				    
+				    <field name="correlative"/>
+				</tree>
+			</field>
+		</record> 
+    </data>
+</openerp>

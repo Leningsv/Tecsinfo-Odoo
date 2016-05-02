@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/odoo/!svn/ver/64/gol_general
+END
+gol_document_header.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/odoo/!svn/ver/13/gol_general/gol_document_header.py
+END
+gol_contact.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/odoo/!svn/ver/38/gol_general/gol_contact.py
+END
+gol_type_voucher.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/odoo/!svn/ver/13/gol_general/gol_type_voucher.py
+END
+gol_generic_discount.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/odoo/!svn/ver/31/gol_general/gol_generic_discount.py
+END
+gol_document_type.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/odoo/!svn/ver/13/gol_general/gol_document_type.py
+END
+gol_identification_type.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/odoo/!svn/ver/59/gol_general/gol_identification_type.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/odoo/!svn/ver/64/gol_general/__init__.py
+END
+gol_type_person.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/odoo/!svn/ver/14/gol_general/gol_type_person.py
+END
+gol_basic_entity.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/odoo/!svn/ver/13/gol_general/gol_basic_entity.py
+END
+gol_consecutive.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/odoo/!svn/ver/64/gol_general/gol_consecutive.py
+END
+__openerp__.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/odoo/!svn/ver/60/gol_general/__openerp__.py
+END

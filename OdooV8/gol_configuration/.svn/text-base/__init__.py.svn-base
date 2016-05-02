@@ -1,0 +1,4 @@
+import gol_consecutive_type_accounting_voucher
+import gol_format_correlative
+import gol_account_config_settings
+import gol_consecutive_invoice

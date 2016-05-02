@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="view_gol_branch_office_form">
+		    <field name="name">view.gol.branch.office.form</field>
+		    <field name="model">gol.branch.office</field>
+		    <field name="type">form</field>
+		    <field name="arch" type="xml">
+		    	<form string="Branch Office">
+	                <sheet>
+	                    <group string="Administración de Puntos de Venta">	      
+	                    	<field name="company" domain="[('parent_id','=',False)]"/>              	
+	                    	<field name="branchOffice" domain="[('parent_id','!=',False),('parent_id','=',company)]"/>
+	                    	<field name="correlative"/>
+	                    </group>
+                    	<notebook>
+	                        <page string="Puntos de Venta">
+	                            <label for="pointOfSale"/>
+                    				<field name="pointOfSale"/>	 
+                    		</page>
+	                    </notebook>
+	               </sheet>              		                        
+                </form>
+		    </field>
+		</record>		
+		<record id='action_gol_branch_office' model='ir.actions.act_window'>
+            <field name="name">Administración Sucursal</field>
+            <field name="res_model">gol.branch.office</field>
+            <field name="view_mode">form</field>
+            <field name="view_type">form</field> 
+            <field name="view_id" ref="view_gol_branch_office_form"/>            
+		</record>
+		<menuitem name="Sucursal" id="menu_gol_branch_office" sequence="1" parent="base.menu_administration" />
+			<menuitem id="sub_menu_gol_branch_office" sequence="1"
+					  parent="menu_gol_branch_office" action="action_gol_branch_office" />
+    </data>
+</openerp>

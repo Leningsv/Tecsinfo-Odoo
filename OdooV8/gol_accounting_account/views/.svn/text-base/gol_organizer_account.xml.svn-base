@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="view_gol_organizer_account_form">
+		    <field name="name">view.gol.organizer.account.form</field>
+		    <field name="model">gol.organizer.account</field>
+		    <field name="type">form</field>
+		    <field name="arch" type="xml">
+		    	<sheet>
+			    	<label for="code" class="oe_edit_only" string="Código y Nombre de la Cuenta"/>
+	                <h1>
+	                    <field name="code" class="oe_inline" placeholder="Código" style="width: 6em"/> -
+	                    <field name="name" class="oe_inline" placeholder="Nombre"/>
+	                </h1>		    	
+			    	<group>
+			    		<group string="Datos Generales">
+			    			<field name="type"/>
+			    			<field name="fatherAccount"/>
+			    			<field name="accountType"/>
+			    			<field name="classifier"/>		    			
+			    		</group>
+			    		<group string="Datos de la Cuenta Ordenador">
+			    			<field name="organizerType"/>
+			    		</group>
+			    		<notebook colspan="4">
+	                		<page string="Descripción u Observación">	                			
+	                			<field name="description"/>               					                				               				                			
+	                		</page>                	
+	                	</notebook>			    					    				    				    			    											    	
+				    </group>				    
+			    </sheet>
+		    </field>
+		</record>
+		<record model="ir.ui.view" id="view_gol_organizer_account_tree">
+		    <field name="name">view.gol.organizer.account.tree</field>
+		    <field name="model">gol.organizer.account</field>
+		    <field name="type">tree</field>
+		    <field name="arch" type="xml">		    	
+		    	<group>
+		    		<field name="code"/>
+					<field name="name"/>
+					<field name="accountType"/>
+					<field name="classifier"/>	    	
+			    </group>
+		    </field>
+		</record>
+		<record id='action_gol_organizer_account' model='ir.actions.act_window'>
+            <field name="name">Cuenta Ordenador</field>
+            <field name="res_model">gol.organizer.account</field>
+            <field name="view_mode">form,tree</field>
+            <field name="view_type">form</field>
+		</record>
+		<!-- Ejemplo de creacion de menus -->
+		<menuitem id="sub_menu_gol_organizer_account" sequence="1"
+				  parent="account.account_account_menu" action="action_gol_organizer_account" />
+    </data>
+</openerp>
